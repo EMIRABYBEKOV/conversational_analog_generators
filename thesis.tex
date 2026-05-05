@@ -1,0 +1,48 @@
+\documentclass[bsc,outertitle,oneside]{eda_thesis}
+
+% Class options:
+%  msc  : Master thesis
+%  da   : Diplomarbeit
+%  bsc  : Bachelor thesis
+%  stua : Studienarbeit
+%  ingp : Ingenieurpraxis
+%  ints : Internship report
+%  outertitle : second title page for cover
+%  oneside, twoside : as usual
+
+\input{preamble}
+
+\begin{document}
+\authors{Hans Mustermann}
+\title{About writing a thesis}
+% \issueDate{01}{01}{2099}
+% \submissionDate{31}{06}{2099}
+% \supervisor{Eva Musterfrau}{Prof. Dr.-Ing. Max Müller}
+\supervisor{Dipl.-Ing. Eva Musterfrau}{Prof. Dr.-Ing. Max Müller}
+\address{
+    Hauptstraße 5 \newline
+    12345 Musterstadt
+}
+% \period{1.1.2099 - 31.6.2099} % only for internships
+\maketitle
+
+\input{content/abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\include{content/chapters/01_about_template}
+\include{content/chapters/02_introduction}
+
+% Include more chapters
+
+\appendix
+
+\include{content/appendices/appendix_a}
+% Include more appendices
+
+\bibliographystyle{tumbib}
+\bibliography{bib/references}
+
+\end{document}

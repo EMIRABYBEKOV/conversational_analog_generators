@@ -1,0 +1,29 @@
+% Project preamble (packages + common settings)
+%
+% Language:
+% - For English texts: \usepackage[english]{babel}
+% - For German texts:  \usepackage[ngerman]{babel}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+\usepackage[breaklinks,pdfborder={0 0 0}]{hyperref}
+\usepackage[abbr]{harvard}
+\renewcommand{\harvardurl}[1]{\url{#1}} % fix bug in harvard package
+
+\usepackage{graphicx}
+\graphicspath{{fig/}{figures/}}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfig}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{fixltx2e}
+
+% Template demo text; remove once you start writing
+\usepackage{blindtext}
+
+% set options for KOMA script
+%  type setting correction for binding = 5mm
+\KOMAoptions{BCOR=5mm}
