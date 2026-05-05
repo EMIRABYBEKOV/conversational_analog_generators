@@ -1,6 +1,5 @@
 # Bachelor thesis (LaTeX)
 
-This repo uses the supervisor-provided template, placed at the repo root.
 
 ## Build
 
